@@ -1,0 +1,8 @@
+PASS 1 catalog and case-insensitive search
+PASS 2 customer registration and duplicate email
+PASS 3 Spring JDBC checkout: subtotal 590.00, discount 59.00, total 531.00
+PASS 4 Spring rollback: notebook stock 10, calculator stock 1, order count 1, line count 2
+PASS 5 Traditional rollback: notebook stock 10, calculator stock 1, order count 1, line count 2
+PASS 6 Traditional JDBC checkout and customer-specific order history
+PASS 7 invalid coupon, empty cart, negative quantity, unknown product
+PASS 8 competing checkouts: one 201, one 409, final stock 0
